@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+
+# Data cache & large raw datasets (can be re-downloaded via data_loader.py)
+data/raw/
+*.csv.gz
+*.zip
+
+# OS & IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

@@ -1,0 +1,5 @@
+Method,Nature-Inspired,Features Used,Feature Reduction (%),Accuracy,F1-Score (Macro),Precision,Recall,ROC-AUC,Training Time (s),Total Pipeline Runtime (s),Inference Latency (ms)
+Random Forest Baseline,No,30,0.0%,0.6950,0.6549,0.6542,0.6974,0.7658,0.502,0.502,40.72
+Logistic Regression Baseline,No,30,0.0%,0.6175,0.5966,0.6277,0.6691,0.7002,0.204,0.204,1.91
+Genetic Algorithm (GA) + RF,Yes (Darwinian Evolution),4,86.7%,0.6825,0.6432,0.6449,0.6867,0.7514,0.499,72.773,43.71
+Particle Swarm (PSO) + RF,Yes (Swarm Intelligence),9,70.0%,0.7040,0.6602,0.6566,0.6974,0.7630,0.402,34.655,37.69
